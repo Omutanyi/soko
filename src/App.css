@@ -1,38 +1,147 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.headerTop {
+  width: 100%;
+  background-color: #3f51b5;
   color: white;
+  padding: 10;
+  height: 40px;
+  align-items: center;
+}
+.headerBottom {
+  width: 100%;
+  height: 90px;
+  /* border-bottom: 1px solid grey; */
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.txtHeader {
+  margin-left: 20px;
+  top: 10px;
+  font-size: 17px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchDiv {
+  /* width: 50%; */
+  margin-left: 35%;
+}
+.headerTopContainer {
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 10px;
+}
+
+.container {
+  width: 80%;
+  /* background-color: red; */
+  margin-left: 10%;
+  padding: 20px;
+  flex-direction: row;
+}
+
+.companyImage {
+  border-radius: 50%;
+  width: 50px;
+  float: left;
+  top: 40px;
+}
+
+.companyDesc {
+  float: left;
+  margin-left: 30px;
+  /* top: -20px; */
+}
+
+.companyDesc p {
+  padding: 0px;
+  line-height: 10px;
+}
+
+.headerBtn {
+  float: right;
+  margin: 20px;
+  /* margin-top: 30px; */
+}
+
+.homeContainer {
+  flex-direction: row;
+}
+
+
+.menu {
+  margin-top: 20px;
+  flex-direction: column;
+  width: 20%;
+  float: left;
+  padding: 20px;
+}
+
+.menu .menuitem {
+  text-decoration: none;
+  font-size: 16px;
+  width: 160px;
+  height: 20px;
+  margin: 0px;
+  padding: 10px;
+}
+
+.menu .menuitem .link {
+  text-decoration: none;
+}
+
+.Products {
+  margin-top: 20px;
+  flex-direction: column;
+  width: 40%;
+  border-left: 2px solid gainsboro;
+  border-right: 2px solid gainsboro;
+  float: left;
+  padding: 10px;
+}
+
+.Bag {
+  margin-top: 20px;
+  width: 30%;
+  padding: 10px;
+  float: right;
+}
+
+.prodCover {
+  width: 100%;
+}
+
+.prodContainer {
+  flex-direction: row;
+  width: 100%;
+  padding: 20px;
+}
+
+.prodContainer .prodImage {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.prodContainer .prodDesc {
+  float: left;
+  width: 50%;
+  margin: 10px;
+}
+
+.addBtn {
+  width: 40px;
+  float: right;
+  /* top: 50px; */
+  padding: 10px;
+}
+
+.topFooter {
+  background-color: #3f51b5;
+}
+
+.footer {
+  margin-top: 20px;
+  height: 100px;
+}
+
+.footerTxt {
+  margin-left: 40%;
 }

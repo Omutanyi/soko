@@ -18,7 +18,7 @@ class App extends Component {
       <Provider store={store}>
       <Router history={history}>
         <ThemeProvider theme={theme}>
-          <Container maxWidth="lg">
+          <Container maxWidth="xl">
             <Header />
           </Container>
         </ThemeProvider>
